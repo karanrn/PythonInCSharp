@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 
 namespace PythonInCSharp
 {
@@ -28,11 +29,15 @@ namespace PythonInCSharp
                     {
                         Arguments = filePath,
                         UseShellExecute = false,
+                        RedirectStandardInput = true,
                         RedirectStandardOutput = true,
                         RedirectStandardError = true,
                         CreateNoWindow = false
                     };
                     process.Start();
+                    string inputText = Console.ReadLine();
+                    StreamWriter pySW = process.StandardInput;
+                    pySW.WriteLine(inputText);
                     outputText = process.StandardOutput.ReadToEnd();
                     //outputText = outputText.Replace(Environment.NewLine, string.Empty);
                     process.WaitForExit();
