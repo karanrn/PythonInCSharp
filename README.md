@@ -7,4 +7,5 @@ It values the importance of integration of different components into one system.
 The application takes path of python script to run.
 The output of python script execution is redirected to console output.
 
+
 ![Alt text](Output.PNG)
