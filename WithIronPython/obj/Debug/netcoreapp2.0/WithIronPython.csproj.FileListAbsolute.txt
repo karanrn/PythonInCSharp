@@ -1,0 +1,11 @@
+E:\c#\PythonInCSharp\WithIronPython\bin\Debug\netcoreapp2.0\WithIronPython.deps.json
+E:\c#\PythonInCSharp\WithIronPython\bin\Debug\netcoreapp2.0\WithIronPython.runtimeconfig.json
+E:\c#\PythonInCSharp\WithIronPython\bin\Debug\netcoreapp2.0\WithIronPython.runtimeconfig.dev.json
+E:\c#\PythonInCSharp\WithIronPython\bin\Debug\netcoreapp2.0\WithIronPython.dll
+E:\c#\PythonInCSharp\WithIronPython\bin\Debug\netcoreapp2.0\WithIronPython.pdb
+E:\c#\PythonInCSharp\WithIronPython\obj\Debug\netcoreapp2.0\WithIronPython.csprojAssemblyReference.cache
+E:\c#\PythonInCSharp\WithIronPython\obj\Debug\netcoreapp2.0\WithIronPython.csproj.CoreCompileInputs.cache
+E:\c#\PythonInCSharp\WithIronPython\obj\Debug\netcoreapp2.0\WithIronPython.AssemblyInfoInputs.cache
+E:\c#\PythonInCSharp\WithIronPython\obj\Debug\netcoreapp2.0\WithIronPython.AssemblyInfo.cs
+E:\c#\PythonInCSharp\WithIronPython\obj\Debug\netcoreapp2.0\WithIronPython.dll
+E:\c#\PythonInCSharp\WithIronPython\obj\Debug\netcoreapp2.0\WithIronPython.pdb
