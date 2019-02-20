@@ -9,7 +9,7 @@ namespace PythonInCSharp
         private static string exePath = "C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe";
         static void Main(string[] args)
         {
-            Console.WriteLine("Pass full file path of python script to be run.");
+            Console.Write("Pass full file path of python script to be run: ");
             string filePath = Console.ReadLine();
             string output = ExecutePythonScript(filePath);
             Console.WriteLine("\nOutput from python execution : \n" + output);
@@ -35,11 +35,14 @@ namespace PythonInCSharp
                         CreateNoWindow = false
                     };
                     process.Start();
+
+                    Console.Write("Enter your name: ");
                     string inputText = Console.ReadLine();
                     StreamWriter pySW = process.StandardInput;
                     pySW.WriteLine(inputText);
+                    pySW.Close();
                     outputText = process.StandardOutput.ReadToEnd();
-                    //outputText = outputText.Replace(Environment.NewLine, string.Empty);
+                    
                     process.WaitForExit();
 
                 }

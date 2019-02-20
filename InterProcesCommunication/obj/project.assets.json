@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\c#\\PythonInCSharp\\PythonInCSharp.csproj",
+      "projectUniqueName": "E:\\c#\\PythonInCSharp\\InterProcesCommunication\\PythonInCSharp.csproj",
       "projectName": "PythonInCSharp",
-      "projectPath": "E:\\c#\\PythonInCSharp\\PythonInCSharp.csproj",
+      "projectPath": "E:\\c#\\PythonInCSharp\\InterProcesCommunication\\PythonInCSharp.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "E:\\c#\\PythonInCSharp\\obj\\",
+      "outputPath": "E:\\c#\\PythonInCSharp\\InterProcesCommunication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
